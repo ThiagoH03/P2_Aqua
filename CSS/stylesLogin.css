@@ -1,0 +1,76 @@
+body{
+    background-color: #08A889;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.input{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
+    background-clip: padding-box;
+    background-color: #008591;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start
+}
+.input label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #fff;
+    padding: 25px;
+}
+.input button{
+    border-radius: 10px;
+    background-color: #08A889;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-self: center;
+}
+.aqua{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FAFAFA;
+    margin: 0;
+}
+.legenda{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    padding-left: 40px;
+
+}
+
+.login{
+    align-self: center;
+    width: 300px;
+    height: 45px;
+    background-color: inherit;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #fff;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.login::placeholder{
+    font-size: 30px;
+    color: #fff;
+}

@@ -1,0 +1,60 @@
+body{
+    background-color: #08A889;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.input{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
+    background-clip: padding-box;
+    background-color: #008591;
+    justify-content:center;
+    align-items:center;
+}
+.input label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+.input input{
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.longInput{
+    width: 350px;
+}
+
+.input button{
+    border-radius: 10px;
+    background-color: #08A889;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-self: center;
+}
+.aqua{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FAFAFA;
+    margin: 0;
+}

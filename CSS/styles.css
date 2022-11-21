@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+    background: #08A889;
+    border-radius: 0px 0px 30px 30px;
+}
+.navbar .menu{
+    flex-direction: row-reverse;
+    margin: 0 15%;    
+    margin-right: 15px;
+}
+
+.logo{
+    align-self: center ;
+}
+.navbar a{
+    color: #fff;
+    float: right;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10;
+}
+.container{
+    margin-top: 30px;
+    background-image: url('/Imagens/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    background-clip: padding-box;
+    justify-content:space-between ;
+}
+.card{
+    display: flex;
+    margin: 10px 80px;
+}
+.produtoTexto{
+    max-width: 200px;
+    align-self: center;
+    background-size: contain;
+    border: #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin: 20px;
+}
+.Texto{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #515151;
+}
+
+.justifyContent{
+    justify-content: space-around;
+}
+.contato{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
+    background-clip: padding-box;
+    background-color: #08A889;
+}
+.contato label{
+    color: #fff;
+    margin-right: 120px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.contato input{
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.icones{
+    margin-top: 10px;
+}
+.icones img{
+    width: 42px;
+    height: 42px;
+}
+.icones span{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 20px;
+    color: #fff;
+}
+.contatoInfo{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.logoContato{
+    width: 146px;
+    height: 146px;
+    background-color: #008591;
+    border-radius: 100%;
+    align-self: center;
+}
+.logoContato img{
+    width: 146px;
+    height: 146px;
+}
+.contatoTexto{
+    width: 400px;
+    height: 200px;
+    background-color: #008591;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
